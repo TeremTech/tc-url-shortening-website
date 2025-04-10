@@ -1,0 +1,6 @@
+@import "./font.css";
+
+:root {
+  font-family: poppins-medium, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}

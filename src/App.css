@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default;
+}
+
+.bg-shorten-desktop {
+  background-image: url("../../images/bg-shorten-desktop.svg");
+  background-size: cover;
+}
