@@ -48,24 +48,32 @@ export function Navigation() {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Features</a>
+            <a className="hover:text-black font-bold text-gray-500 hover:bg-base-100">
+              Features
+            </a>
           </li>
           <li>
-            <a>Pricing</a>
+            <a className="hover:text-black font-bold text-gray-500 hover:bg-base-100">
+              Pricing
+            </a>
           </li>
           <li>
-            <a>Resources</a>
+            <a className="hover:text-black font-bold text-gray-500 hover:bg-base-100">
+              Resources
+            </a>
           </li>
         </ul>
       </div>
       <div className="navbar-end hidden lg:flex lg:grow">
-        <ul className="menu menu-horizontal px-1 ">
+        <ul className="menu menu-horizontal gap-4">
           <li>
-            <a>Login</a>
+            <a className="hover:text-black font-bold text-gray-500 hover:bg-base-100">
+              Login
+            </a>
           </li>
           <li>
             <a className="btn btn-accent rounded-2xl btn-sm hover:bg-cyan-300 text-base-100">
-              Sign up
+              Sign Up
             </a>
           </li>
         </ul>
