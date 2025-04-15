@@ -7,7 +7,7 @@ import {
 
 export function SocialIcons() {
   return (
-    <div className="flex gap-4 text-2xl">
+    <div className="flex gap-4 text-2xl mt-8 lg:mt-0 justify-center lg:justify-start">
       <a className="hover:text-cyan-500" href="#">
         <FaFacebookSquare />
       </a>

@@ -6,11 +6,11 @@ import { SocialIcons } from "./social-icons";
 
 export function Footer() {
   return (
-    <footer className="bg-indigo-950 text-neutral-content flex w-full justify-between px-40 py-12">
+    <footer className="flex lg:flex-row flex-col bg-indigo-950 text-neutral-content w-full lg:justify-between lg:px-40 py-12">
       <div>
         <BusinessName></BusinessName>
       </div>
-      <div className="flex xl:gap-16 lg:gap-8">
+      <div className="flex lg:flex-row flex-col xl:gap-16 lg:gap-8">
         <Features></Features>
         <Resources></Resources>
         <Company></Company>

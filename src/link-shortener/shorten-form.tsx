@@ -11,7 +11,7 @@ export function ShortenForm({
   const [url, setUrl] = useState("");
 
   return (
-    <form className="flex gap-4 p-14 bg-violet-950 bg-shorten-desktop rounded-xl absolute -top-20 right-32 left-32">
+    <form className="grid lg:flex gap-4 lg:p-14 p-8 bg-violet-950 bg-shorten-desktop rounded-xl absolute -top-20 lg:right-32 lg:left-32 right-4 left-4">
       <div className="grow grid gap-2">
         <input
           type="text"
@@ -24,7 +24,7 @@ export function ShortenForm({
           value={url}
         />
         {error && (
-          <span className="text-red-300 italic absolute bottom-8">
+          <span className="text-red-300 italic lg:absolute bottom-8">
             Please add a link
           </span>
         )}

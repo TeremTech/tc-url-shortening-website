@@ -6,9 +6,9 @@ export function ShortLinkList({
   urls: { url: string; short: string }[];
 }) {
   return (
-    <section className="pt-24 grid gap-4">
+    <section className="pt-36 lg:pt-24 grid gap-4">
       {urls.map((line) => (
-        <div className="bg-base-100 rounded-xl p-4 flex justify-between">
+        <div className="flex lg:flex-row flex-col gap-4 bg-base-100 rounded-xl lg:p-4 justify-between w-full">
           <ShortLinkListEntry
             url={line.url}
             short={line.short}

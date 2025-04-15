@@ -31,14 +31,18 @@ function App() {
 
   return (
     <>
-      <main className="lg:px-32 py-8">
+      <main className="lg:px-32 lg:py-8">
         <Navigation />
-        <div className="flex py-16">
+        <div className="hidden lg:flex py-16">
           <GetStarted />
           <WorkingImage />
         </div>
+        <div className="lg:hidden grid gap-8 text-center pb-32">
+          <WorkingImage />
+          <GetStarted />
+        </div>
       </main>
-      <div className="bg-indigo-50 px-32 relative w-full pb-36">
+      <div className="bg-indigo-50 px-4 lg:px-32 relative w-full pb-36">
         <ShortenForm error={hasError} onshorten={onshorten} />
         <ShortLinkList urls={urls} />
         <Banner></Banner>
