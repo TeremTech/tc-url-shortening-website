@@ -17,11 +17,11 @@ export function ShortLinkListEntry({
 
   return (
     <>
-      <span className="border-b border-gray-300 p-4 lg:border-0 lg:py-0 flex items-center">
+      <span className="border-b border-gray-300 p-4 lg:border-0 lg:py-0 flex items-center font-bold">
         {url}
       </span>
       <div className="flex flex-col lg:flex-row gap-4 px-4 pb-4 lg:p-0 lg:items-center">
-        <span className="text-accent ">{short}</span>
+        <span className="text-accent font-bold">{short}</span>
         <button
           type="button"
           className={classNames(

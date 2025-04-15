@@ -9,7 +9,7 @@ export function CardSteps() {
       <div className="lg:hidden flex justify-center absolute top-0 left-0 bottom-0 w-full">
         <div className="w-2 bg-cyan-500"></div>
       </div>
-      <article className="flex flex-col lg:flex-row justify-between mt-20 lg:gap-2 gap-28">
+      <article className="flex flex-col lg:flex-row lg:justify-between items-center mt-20 lg:gap-2 gap-28">
         <Card
           icon={<FaChartLine />}
           title="Brand Recognition"
