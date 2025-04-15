@@ -38,7 +38,9 @@ export function Navigation() {
               <a className="justify-center">Login</a>
             </li>
             <li>
-              <a className="btn btn-accent rounded-2xl btn-sm">Sign up</a>
+              <a className="btn btn-accent rounded-2xl btn-sm hover:bg-cyan-300 text-base-100">
+                Sign up
+              </a>
             </li>
           </ul>
         </div>
@@ -62,7 +64,9 @@ export function Navigation() {
             <a>Login</a>
           </li>
           <li>
-            <a className="btn btn-accent rounded-2xl btn-sm">Sign up</a>
+            <a className="btn btn-accent rounded-2xl btn-sm hover:bg-cyan-300 text-base-100">
+              Sign up
+            </a>
           </li>
         </ul>
       </div>

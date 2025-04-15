@@ -8,7 +8,7 @@ export function GetStarted() {
       </h2>
       <button
         type="button"
-        className="btn btn-accent btn-lg rounded-3xl w-fit my-4"
+        className="btn btn-accent btn-lg rounded-3xl w-fit my-4 hover:bg-cyan-300 text-base-100"
       >
         Get Started
       </button>

@@ -4,6 +4,9 @@ import { Navigation } from "./navigation";
 import { GetStarted, WorkingImage } from "./banner";
 import { ShortenForm, ShortLinkList } from "./link-shortener";
 import { shortenUrl, loadUrls, saveUrl } from "./api";
+import { Banner, CardSteps } from "./advanced-statistics";
+import { BoostYourLinks } from "./boost-your-links";
+import { Footer } from "./footer";
 
 function App() {
   const [hasError, setHasError] = useState(false);
@@ -35,10 +38,14 @@ function App() {
           <WorkingImage />
         </div>
       </main>
-      <div className="bg-indigo-50 px-32 relative w-full h-screen">
+      <div className="bg-indigo-50 px-32 relative w-full pb-36">
         <ShortenForm error={hasError} onshorten={onshorten} />
         <ShortLinkList urls={urls} />
+        <Banner></Banner>
+        <CardSteps></CardSteps>
       </div>
+      <BoostYourLinks></BoostYourLinks>
+      <Footer></Footer>
     </>
   );
 }

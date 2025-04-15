@@ -1,6 +1,6 @@
 // import axios from "redaxios";
 
-export async function shortenUrl(url: string): Promise<string> {
+export async function shortenUrl(_url: string): Promise<string> {
   // CORS error,  needs to be called on the server
   //   return axios({
   //     method: "post",

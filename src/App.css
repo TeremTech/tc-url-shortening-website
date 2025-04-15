@@ -2,8 +2,19 @@
 @plugin "daisyui" {
   themes: light --default;
 }
+@theme {
+  --color-violet-950: #3a3053;
+  --color-cyan-500: #40a8b3;
+  --color-indigo-950: #232027;
+}
 
 .bg-shorten-desktop {
   background-image: url("../../images/bg-shorten-desktop.svg");
   background-size: cover;
+}
+
+.bg-boost-your-links-desktop {
+  background-image: url("../../images/bg-boost-desktop.svg");
+  background-size: cover;
+  @apply bg-violet-950 text-neutral-content;
 }
