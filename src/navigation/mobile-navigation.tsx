@@ -35,7 +35,10 @@ export function MobileNavigation() {
           </a>
         </li>
         <li>
-          <a className="btn btn-accent rounded-2xl hover:bg-cyan-300 text-base-100">
+          <a
+            href="#"
+            className="btn btn-accent rounded-2xl hover:bg-cyan-300 text-base-100"
+          >
             Sign Up
           </a>
         </li>

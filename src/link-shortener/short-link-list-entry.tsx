@@ -17,16 +17,17 @@ export function ShortLinkListEntry({
 
   return (
     <>
-      <span className="border-b border-gray-300 p-4 lg:border-0 lg:py-0">
+      <span className="border-b border-gray-300 p-4 lg:border-0 lg:py-0 flex items-center">
         {url}
       </span>
-      <div className="flex flex-col lg:flex-row gap-2 px-4 pb-4 lg:p-0 ">
+      <div className="flex flex-col lg:flex-row gap-4 px-4 pb-4 lg:p-0 lg:items-center">
         <span className="text-accent ">{short}</span>
         <button
           type="button"
           className={classNames(
             "btn",
             "w-full",
+            "lg:btn-sm",
             "lg:w-24",
             "text-neutral-content",
             { "btn-accent": !copyStatus },
