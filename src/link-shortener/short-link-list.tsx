@@ -9,6 +9,7 @@ export function ShortLinkList({
     <section className="pt-36 lg:pt-24 grid gap-4">
       {urls.map((line) => (
         <div
+          data-testid="shortlinks"
           key={line.url}
           className="flex lg:flex-row flex-col gap-4 bg-base-100 rounded-xl lg:p-4 justify-between w-full"
         >
