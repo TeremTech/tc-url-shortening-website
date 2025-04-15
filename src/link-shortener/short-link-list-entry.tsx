@@ -26,11 +26,11 @@ export function ShortLinkListEntry({
           type="button"
           className={classNames(
             "btn",
-            "btn-sm",
             "w-full",
-            "lg:w-fit",
+            "lg:w-24",
+            "text-neutral-content",
             { "btn-accent": !copyStatus },
-            { "btn-info": copyStatus }
+            { "bg-indigo-950": copyStatus }
           )}
           onClick={() => copyToClipboard(short)}
         >

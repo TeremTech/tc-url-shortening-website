@@ -45,11 +45,11 @@ function App() {
       <div className="bg-indigo-50 px-4 lg:px-32 relative w-full pb-36">
         <ShortenForm error={hasError} onshorten={onshorten} />
         <ShortLinkList urls={urls} />
-        <Banner></Banner>
-        <CardSteps></CardSteps>
+        <Banner />
+        <CardSteps />
       </div>
-      <BoostYourLinks></BoostYourLinks>
-      <Footer></Footer>
+      <BoostYourLinks />
+      <Footer />
     </>
   );
 }
