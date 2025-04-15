@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import { Navigation } from "./navigation";
-import { GetStarted, WorkingImage } from "./banner";
+import { GetStarted, WorkingImage } from "./more-than-just-shorter";
 import { ShortenForm, ShortLinkList } from "./link-shortener";
 import { shortenUrl, loadUrls, saveUrl } from "./api";
 import { Banner, CardSteps } from "./advanced-statistics";
