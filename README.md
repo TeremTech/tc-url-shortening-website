@@ -35,7 +35,7 @@ There is also a `style-guide.md` file containing the information you'll need, su
 
 ### Deliverables
 
-Make sure to include all source code in the repository.
+Source code in a private GitHub repository cloned from this repository shared to the list of provided GitHub users.
 
 ### CodeSubmit
 
